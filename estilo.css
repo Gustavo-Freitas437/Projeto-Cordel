@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+    
+}
+.esp {
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 80px;
+    padding-top: 30px;
+}
+.pse {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+.pse a {
+    text-decoration: none;
+    color: white;
+}
+.pse a:hover {
+    text-decoration: underline;
+}
+section {
+    
+    text-indent: 20px;
+    margin-top: 50px;
+    max-width: 600px;
+    font-family: "Sriracha", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+
+    
+}
+section p {
+    margin-bottom: 20px;
+}
+.art {
+    position: relative;
+    width: 100%;
+    height: 600px;
+     background-image: url('imagens/background001.jpg');
+     background-position: right center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    top: 20px;
+    left: 8px;
+}
+.arti {
+    position: relative;
+    width: 100%;
+    height: 600px;
+     background-image: url('imagens/background002.jpg');
+     background-position: right center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 150px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer strong {
+    font-weight: bolder;
+}
